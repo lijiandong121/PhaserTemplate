@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "module": "CommonJS",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "outDir": "./build",
+        "sourceMap": true,
+        "target": "ES2015",
+        "esModuleInterop":true,
+        "allowJs": true,
+
+    },
+    
+    "paths": {
+        // "config/*": ["../config/*"],
+        "#/*": ["./assets/*"],
+
+      },
+    "baseUrl": "./src/",
+    "include": [
+        "./**/*"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
